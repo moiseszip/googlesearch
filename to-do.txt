@@ -1,0 +1,11 @@
+- 3 pages
+    > regular g search (index)
+    > g im search
+    > g advanced search
+    > links on index to other searches (upper-right)
+    > link on other searches to index
+
+- g search
+    > copy google search's style
+    > centered rounded corner search bar
+    > centered google search and i'm feeling lucky buttons
