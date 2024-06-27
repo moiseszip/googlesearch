@@ -12,12 +12,13 @@
 
 - adv search url example
 https://www.google.com/search?
-as_q=tricolor+rat+terrier&
-as_epq=%22rat+terrier%22&
-as_oq=standard&
-as_eq=-%22Jack+Russell%22&
-as_nlo=10..35&
-as_nhi=lb&
+'as_q=tricolor+rat+terrier&
+'as_epq=%22rat+terrier%22&
+'as_oq=standard&
+'as_eq=-%22Jack+Russell%22&
+'as_nlo=10..35&
+'as_nhi=lb&
+======
 lr=lang_pt&
 cr=countryBR&
 as_qdr=all&

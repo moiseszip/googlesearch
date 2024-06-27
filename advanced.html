@@ -32,8 +32,28 @@
                 <h3>Find pages with...</h3>
                 <h5>Do this in the search box.</h5>
             </div>
-            <form action="">
-                <label for=""></label>
+            <form class="advanced-search" action="https://www.google.com/search">
+
+                <label for="as_q">all these words:</label>
+                <input type="text" name="as_q">
+                <span>Enter the important words: <i>tricolor rat terrier</i></span>
+                <br>
+                <label for="as_epq">this exact expression or phrase:</label>
+                <input type="text" name="as_epq">
+                <br>
+                <label for="as_oq">any of these words:</label>
+                <input type="text" name="as_oq">
+                <br>
+                <label for="as_eq">none of these words:</label>
+                <input type="text" name="as_eq">
+                <br>
+                <label for="as_nlo">numbers ranging from:</label>
+                <input type="text" name="as_nlo">
+
+                <label for="as_nhi">The</label>
+                <input type="text" name="as_nhi">
+
+                <input type="submit" value="Google Search">
             </form>
         </div>
     </div>
