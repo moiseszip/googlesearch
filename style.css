@@ -97,8 +97,3 @@ input:hover, input[type="text"]:focus{
     box-shadow: 0px 1px 2px #d1d1d1;
     outline: none;
 }
-
-.advanced-search{
-    display: flex;
-    flex-direction: column;
-}
