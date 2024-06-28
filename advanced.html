@@ -22,48 +22,46 @@
                 </a>
             </div>
         </div>
-
         <div class="title">
             <h1>Advanced Search</h1>
         </div>
         <hr>
-        <div class="words">
+        <div class="content">
             <div class="words-header">
                 <h3>Find pages with...</h3>
                 <h5>Do this in the search box.</h5>
             </div>
-            <form class="advanced-search" action="https://www.google.com/search">
-
-                <label for="as_q">all these words:</label>
-                <input type="text" name="as_q">
-                <span>Enter the important words: <i>tricolor rat terrier</i></span>
-                <br>
-
-                <label for="as_epq">this exact expression or phrase:</label>
-                <input type="text" name="as_epq">
-                <span>Put exact words in quotes: <i>"rat terrier"</i></span>
-                <br>
-
-                <label for="as_oq">any of these words:</label>
-                <input type="text" name="as_oq">
-                <span>Type <i>OR</i> between all the words you search for: <i>standard OR thumbnail</i></span>
-                <br>
-
-                <label for="as_eq">none of these words:</label>
-                <input type="text" name="as_eq">
-                <span>Put a minus sign in front of the words you don't want: <i>-rodent, -"Jack Russell"</i></span>
-                <br>
-
-                <label for="as_nlo">numbers ranging from:</label>
-                <input type="text" name="as_nlo">
-
-                <label for="as_nhi">The</label>
-                <input type="text" name="as_nhi">
-                <span>Put 2 full stops between the numbers and add a unit of measurement: <i>10..35 lb, $300..$500, 2010..2011</i>
-                </span>
-
-                <input type="submit" value="Google Search">
-            </form>
+            <div class="words">
+    
+                <div class="labels">
+                    <label for="as_q">all these words:</label>
+                    <label for="as_epq">this exact expression or phrase:</label>
+                    <label for="as_oq">any of these words:</label>
+                    <label for="as_eq">none of these words:</label>
+                    <label for="as_nlo">numbers ranging from:</label>
+                    
+                </div>
+                <form class="advanced-search" action="https://www.google.com/search">
+                    
+                    <input type="text" name="as_q">
+                    <input type="text" name="as_epq">
+                    <input type="text" name="as_oq">
+                    <input type="text" name="as_eq"> 
+                    <input type="text" name="as_nlo">
+                    <label for="as_nhi">The</label>
+                    <input type="text" name="as_nhi">
+                    <input type="submit" value="Google Search" hidden>
+                </form>
+            
+                <div class="examples">
+                    <p>Enter the important words: <i>tricolor rat terrier</i></p>
+                    <p>Put exact words in quotes: <i>"rat terrier"</i></p>
+                    <p>Type <i>OR</i> between all the words you search for: <i>standard OR thumbnail</i></p>
+                    <p>Put a minus sign in front of the words you don't want: <i>-rodent, -"Jack Russell"</i></p>
+                    <p>Put 2 full stops between the numbers and add a unit of measurement: <i>10..35 lb, $300..$500, 2010..2011</i></p>
+                    
+                </div>
+            </div>
         </div>
     </div>
     

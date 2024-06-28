@@ -97,3 +97,38 @@ input:hover, input[type="text"]:focus{
     box-shadow: 0px 1px 2px #d1d1d1;
     outline: none;
 }
+
+.title{
+    padding: 24px 36px;
+    font-size: 12px;
+    color: rgb(255, 42, 42);
+}
+.content{
+    padding: 36px;
+}
+.words-header{
+    display: flex;
+}
+.words{
+    display: flex;
+    flex-direction: row;
+}
+.labels, .advanced-search, .examples{
+    display: flex;
+    flex-direction: column;
+}
+.labels{
+    flex-grow: 1;
+}
+.advanced-search{
+    flex-grow: 10;
+}
+.examples{
+    flex-grow: 1;
+    font-size: 12px;
+    margin-left: 12px;
+}
+.labels *, .advanced-search *, .examples *{
+    margin-bottom: 16px;
+    height: 28px;
+}
