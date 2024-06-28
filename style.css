@@ -103,9 +103,11 @@ input:hover, input[type="text"]:focus{
     font-size: 12px;
     color: rgb(255, 42, 42);
 }
+
 .content{
     padding: 36px;
 }
+
 .words-header{
     display: flex;
 }
@@ -113,6 +115,7 @@ input:hover, input[type="text"]:focus{
     display: flex;
     flex-direction: row;
 }
+
 .labels, .advanced-search, .examples{
     display: flex;
     flex-direction: column;
@@ -128,7 +131,7 @@ input:hover, input[type="text"]:focus{
     font-size: 12px;
     margin-left: 12px;
 }
-.labels *, .advanced-search *, .examples *{
+.labels *, .advanced-search input, .examples *{
     margin-bottom: 16px;
-    height: 28px;
+    height: 28px;   
 }
