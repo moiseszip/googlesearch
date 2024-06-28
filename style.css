@@ -110,6 +110,9 @@ input:hover, input[type="text"]:focus{
 
 .words-header{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 16px;
 }
 .words{
     display: flex;
@@ -122,6 +125,8 @@ input:hover, input[type="text"]:focus{
 }
 .labels{
     flex-grow: 1;
+    color: #3c4043;
+    padding: auto 0;
 }
 .advanced-search{
     flex-grow: 10;
@@ -130,8 +135,24 @@ input:hover, input[type="text"]:focus{
     flex-grow: 1;
     font-size: 12px;
     margin-left: 12px;
+    width: 35vw;
 }
 .labels *, .advanced-search input, .examples *{
     margin-bottom: 16px;
-    height: 28px;   
+    height: 28px;
+    flex-wrap: wrap;
+}
+.as_n{
+    display: flex;
+    justify-content: space-between;
+}
+.as_n label{
+    margin: 0 4px;
+}
+.advanced-search input{
+    border: solid 1px rgba(0, 0, 0, 0.554);
+    padding-left: 8px;
+}
+.advanced-search input:focus{
+    border: solid 1px rgb(53, 166, 227);
 }
