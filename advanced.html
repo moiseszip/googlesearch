@@ -34,108 +34,113 @@
             <form class="advanced-search" action="https://www.google.com/search" id="first-form">
 
                 <div class="words-header row">
-                    <h4 class="col-7">Find pages with...</h4>
-                    <h6 class="col-5">Do this in the search box.</h6>
+                    <h4 class="col-8">Find pages with...</h4>
+                    <h6 class="col-4">Do this in the search box.</h6>
                 </div>
-    
-                <div class="labels">
-                    <label for="as_q">all these words:</label>
-                    <label for="as_epq">this exact expression or phrase:</label>
-                    <label for="as_oq">any of these words:</label>
-                    <label for="as_eq">none of these words:</label>
-                    <label for="as_nlo">numbers ranging from:</label>
+                <section class="row">
+                    <div class="labels col-2">
+                        <label for="as_q">all these words:</label>
+                        <label for="as_epq">this exact expression or phrase:</label>
+                        <label for="as_oq">any of these words:</label>
+                        <label for="as_eq">none of these words:</label>
+                        <label for="as_nlo">numbers ranging from:</label>
+                        
+                    </div>
                     
-                </div>
-                
-                <div class="inputs">
-                    <input type="text" name="as_q" id="as_q">
-                    <input type="text" name="as_epq" id="as_epq">
-                    <input type="text" name="as_oq" id="as_oq">
-                    <input type="text" name="as_eq" id="as_eq">
-                        <div class="as_n">
-                            <input type="text" name="as_nlo" id="as_nlo">
-                            <label for="as_nhi" >in</label>
-                            <input type="text" name="as_nhi" id="as_nhi">
-                        </div>
-                </div>
-
-                <div class="examples">
-                    <p>Enter the important words: <i>tricolor rat terrier</i></p>
-                    <p>Put exact words in quotes: <i>"rat terrier"</i></p>
-                    <p>Type <i>OR</i> between all the words you search for: <i>standard OR thumbnail</i></p>
-                    <p>Put a minus sign in front of the words you don't want: <i>-rodent, -"Jack Russell"</i></p>
-                    <p>Put 2 full stops between the numbers and add a unit of measurement: <i>10..35 lb, $300..$500, 2010..2011</i></p>
-                </div>
+                    <div class="inputs col-6">
+                        <input type="text" name="as_q" id="as_q">
+                        <input type="text" name="as_epq" id="as_epq">
+                        <input type="text" name="as_oq" id="as_oq">
+                        <input type="text" name="as_eq" id="as_eq">
+                            <div class="as_n">
+                                <input type="text" name="as_nlo" id="as_nlo">
+                                <label for="as_nhi" >in</label>
+                                <input type="text" name="as_nhi" id="as_nhi">
+                            </div>
+                    </div>
+    
+                    <div class="examples col-4">
+                        <p>Enter the important words: <i>tricolor rat terrier</i></p>
+                        <p>Put exact words in quotes: <i>"rat terrier"</i></p>
+                        <p>Type <i>OR</i> between all the words you search for: <i>standard OR thumbnail</i></p>
+                        <p>Put a minus sign in front of the words you don't want: <i>-rodent, -"Jack Russell"</i></p>
+                        <p>Put 2 full stops between the numbers and add a unit of measurement: <i>10..35 lb, $300..$500, 2010..2011</i></p>
+                    </div>
+                </section>
 
                 <hr>
 
                 <div class="words-header row">
                     <h4 class="col-7">Then limit your results by...</h4>
                 </div>
-                    
-                <div class="labels">
-                    <label for="as_q">language:</label>
-                    <label for="as_epq">region:</label>
-                    <label for="as_oq">last update:</label>
-                    <label for="as_eq">website or domain:</label>
-                    <label for="as_nlo">therms that appear:</label>
-                    <label for="as_nlo">file type:</label>
-                    <label for="as_nlo">usage rights:</label>
-                </div>
+                <div class="form-2">
 
-                <div class="inputs">
-
-                    <select name="lr" id="lr">
-                        <option value="" selected>any language</option>
-                        <option value="lang_pt">Portuguese</option>
-                        <option value="lang_en">English</option>
-                    </select>
-                    <select name="cr" id="cr">
-                        <option value="" selected>Any country</option>
-                        <option value="countryBR">Brazil</option>
-                        <option value="countryUS">U.S.</option>
-                    </select>
-                    <select name="as_qdr" id="as_qdr">
-                        <option value="all" selected>on any date</option>
-                        <option value="d">in the last 24 hours</option>
-                        <option value="w">last week</option>
-                        <option value="m">in the last month</option>
-                        <option value="y">on the last year</option>
-                    </select>
-                    <input type="text" name="as_sitesearch">
-                    <select name="as_occt" id="as_occt">
-                        <option value="any" selected>anywhere on the page</option>
-                        <option value="title">ipn the page title</option>
-                        <option value="body">in the text of the page</option>
-                        <option value="url">in the page URL</option>
-                        <option value="links">in links to the page</option>
-                    </select>
-                    <select name="as_filetype" id="as_filetype">
-                        <option value="" selected>any format</option>
-                        <option value="pdf">Adobe Acrobat PDF (.pdf)</option>
-                        <option value="xls">Microsoft Excel (.xls)</option>
-                        <option value="ppt">Microsoft Powerpoint (.ppt)</option>
-                        <option value="doc">Microsoft Word (.doc)</option>
-                        <option value="rtf">Rich Text Format (.rtf)</option>
-                    </select>
-                    <select name="tbs" id="tbs">
-                        <option value="">not filtered by license</option>
-                        <option value="sur%3Af">no restrictions on use or sharing</option>
-                        <option value="sur:fc">no restrictions on use or sharing, even commercially</option>
-                        <option value="sur:fm">no restrictions, sharing or modification</option>
-                        <option value="sur:fmc">without restrictions on use, sharing or modification, even commercially</option>
-                    </select>
-                    <input type="submit" value="Advanced Search">
-                </div>
-
-                <div class="examples">
-                    <p>Find pages in the selected language.</p>
-                    <p>Find pages published in a specific region.</p>
-                    <p>Find pages updated within the specified time.</p>
-                    <p>Search a website (like wikipedia.org ) or limit your results to a domain like .edu , .org , or .gov</p>
-                    <p>Search for terms across the entire page, in the page title, in the web address, or in links to the page you're looking for.</p>
-                    <p>Find pages in the format you prefer.</p>
-                    <p>Find pages where there are no usage restrictions.</p>
+                    <section class="row">
+                        <div class="labels col-2">
+                            <label for="as_q">language:</label>
+                            <label for="as_epq">region:</label>
+                            <label for="as_oq">last update:</label>
+                            <label for="as_eq">website or domain:</label>
+                            <label for="as_nlo">therms that appear:</label>
+                            <label for="as_nlo">file type:</label>
+                            <label for="as_nlo">usage rights:</label>
+                        </div>
+        
+                        <div class="inputs col-6">
+        
+                            <select name="lr" id="lr">
+                                <option value="" selected>any language</option>
+                                <option value="lang_pt">Portuguese</option>
+                                <option value="lang_en">English</option>
+                            </select>
+                            <select name="cr" id="cr">
+                                <option value="" selected>Any country</option>
+                                <option value="countryBR">Brazil</option>
+                                <option value="countryUS">U.S.</option>
+                            </select>
+                            <select name="as_qdr" id="as_qdr">
+                                <option value="all" selected>on any date</option>
+                                <option value="d">in the last 24 hours</option>
+                                <option value="w">last week</option>
+                                <option value="m">in the last month</option>
+                                <option value="y">on the last year</option>
+                            </select>
+                            <input type="text" name="as_sitesearch">
+                            <select name="as_occt" id="as_occt">
+                                <option value="any" selected>anywhere on the page</option>
+                                <option value="title">ipn the page title</option>
+                                <option value="body">in the text of the page</option>
+                                <option value="url">in the page URL</option>
+                                <option value="links">in links to the page</option>
+                            </select>
+                            <select name="as_filetype" id="as_filetype">
+                                <option value="" selected>any format</option>
+                                <option value="pdf">Adobe Acrobat PDF (.pdf)</option>
+                                <option value="xls">Microsoft Excel (.xls)</option>
+                                <option value="ppt">Microsoft Powerpoint (.ppt)</option>
+                                <option value="doc">Microsoft Word (.doc)</option>
+                                <option value="rtf">Rich Text Format (.rtf)</option>
+                            </select>
+                            <select name="tbs" id="tbs">
+                                <option value="">not filtered by license</option>
+                                <option value="sur%3Af">no restrictions on use or sharing</option>
+                                <option value="sur:fc">no restrictions on use or sharing, even commercially</option>
+                                <option value="sur:fm">no restrictions, sharing or modification</option>
+                                <option value="sur:fmc">without restrictions on use, sharing or modification, even commercially</option>
+                            </select>
+                        </div>
+                        
+                        <div class="examples col-4">
+                            <p>Find pages in the selected language.</p>
+                            <p>Find pages published in a specific region.</p>
+                            <p>Find pages updated within the specified time.</p>
+                            <p>Search a website (like wikipedia.org ) or limit your results to a domain like .edu , .org , or .gov</p>
+                            <p>Search for terms across the entire page, in the page title, in the web address, or in links to the page you're looking for.</p>
+                            <p>Find pages in the format you prefer.</p>
+                            <p>Find pages where there are no usage restrictions.</p>
+                        </div>
+                    </section>
+                    <input type="submit" value="Advanced Search" class="col-8">
                 </div>
             </form>
         </div>

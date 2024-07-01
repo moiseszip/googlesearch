@@ -108,18 +108,46 @@ input:hover, input[type="text"]:focus{
     padding: 36px;
 }
 
-.labels *, .advanced-search input, .examples *, .advanced-search select{
+.advanced-search, .labels, .inputs{
+    display: flex;
+    flex-direction: column;
+}
+.labels{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.examples{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 2px;
+    color: #3c4043;
+}
+
+.examples *, .labels *{
+    height: 28px;
+    line-height: 16px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+.advanced-search input, .advanced-search select{
     margin-bottom: 16px;
     height: 28px;
+    min-width: 220px;
     flex-wrap: wrap;
 }
 .as_n{
     display: flex;
     justify-content: space-between;
 }
-.as_n label{
-    margin: 0 4px;
-}
+
 .advanced-search input, select{
     border: solid 1px rgba(0, 0, 0, 0.554);
     padding-left: 8px;
@@ -134,8 +162,8 @@ input:hover, input[type="text"]:focus{
     border: solid 1px rgb(48, 151, 207);
     border-radius: 1px;
     width: 160px;
-    align-self: flex-end;
     padding-left: 16px;
+    
 }
 .advanced-search input[type="submit"]:hover{
     background-color: rgb(66, 180, 241);
