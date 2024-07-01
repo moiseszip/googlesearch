@@ -108,36 +108,7 @@ input:hover, input[type="text"]:focus{
     padding: 36px;
 }
 
-.words-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 16px;
-}
-.words{
-    display: flex;
-    flex-direction: row;
-}
-
-.labels, .advanced-search, .examples{
-    display: flex;
-    flex-direction: column;
-}
-.labels{
-    flex-grow: 1;
-    color: #3c4043;
-    padding: auto 0;
-}
-.advanced-search{
-    flex-grow: 10;
-}
-.examples{
-    flex-grow: 1;
-    font-size: 12px;
-    margin-left: 12px;
-    width: 35vw;
-}
-.labels *, .advanced-search input, .examples *{
+.labels *, .advanced-search input, .examples *, .advanced-search select{
     margin-bottom: 16px;
     height: 28px;
     flex-wrap: wrap;
@@ -149,10 +120,23 @@ input:hover, input[type="text"]:focus{
 .as_n label{
     margin: 0 4px;
 }
-.advanced-search input{
+.advanced-search input, select{
     border: solid 1px rgba(0, 0, 0, 0.554);
     padding-left: 8px;
+    font-size: 14px;
 }
-.advanced-search input:focus{
+.advanced-search input:focus, select:focus{
     border: solid 1px rgb(53, 166, 227);
+}
+.advanced-search input[type="submit"]{
+    background-color: rgb(53, 166, 227);
+    color: black;
+    border: solid 1px rgb(48, 151, 207);
+    border-radius: 1px;
+    width: 160px;
+    align-self: flex-end;
+    padding-left: 16px;
+}
+.advanced-search input[type="submit"]:hover{
+    background-color: rgb(66, 180, 241);
 }
