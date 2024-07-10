@@ -1,4 +1,4 @@
-<h1 align="center"> Notes by Zip ✒ </h1>
+<h1 align="center"> Google Search 🔍 </h1>
 
 <p align="center">
 Duplicate of the Google Search, Google Image and Google Advanced Search web pages</p>
@@ -14,6 +14,10 @@ Duplicate of the Google Search, Google Image and Google Advanced Search web page
 
 - HTML
 - CSS
+
+## 💻 Project
+
+- [View the final project, online](https://moiseszip.github.io/googlesearch)
 
 ## 📃 License
 
