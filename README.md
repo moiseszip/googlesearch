@@ -9,10 +9,9 @@ Duplicate of the Google Search, Google Image and Google Advanced Search web page
 
 <br>
 
-![image](https://github.com/moiseszip/googlesearch/assets/57779751/db265aea-ecb0-4306-b026-d38e57bac697?w=200)
-![image](https://github.com/moiseszip/googlesearch/assets/57779751/ae645800-1808-4950-8e50-f45cd347387f)
-![image](https://github.com/moiseszip/googlesearch/assets/57779751/eabc2bb4-0ab3-4f7d-9d38-550297ae7473)
-
+<img src="https://github.com/moiseszip/googlesearch/assets/57779751/db265aea-ecb0-4306-b026-d38e57bac697" alt="Google Search" width="300"/>
+<img src="https://github.com/moiseszip/googlesearch/assets/57779751/ae645800-1808-4950-8e50-f45cd347387f" alt="Google Search" width="300"/>
+<img src="https://github.com/moiseszip/googlesearch/assets/57779751/eabc2bb4-0ab3-4f7d-9d38-550297ae7473" alt="Google Search" width="300"/>
 
 <br>
 
