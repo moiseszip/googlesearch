@@ -17,7 +17,7 @@ Duplicate of the Google Search, Google Image and Google Advanced Search web page
 
 ## 💻 Project
 
-- [View the final project, online](https://moiseszip.github.io/googlesearch)
+- [View the final project, online](https://moiseszip.github.io/googlesearch){:target="_blank"}
 
 ## 📃 License
 
